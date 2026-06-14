@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon&family=Special+Elite&display=swap");
 
+:root {
+  --primary-font: losevka-charon;
+  --secondary-font: special-elite;
+  --primary-color: lightgrey;
+  --secdondary-color: darkgrey;
+  --accent-color: orange;
+}
+
 .main-content {
   background-color: aqua;
   min-height: 100vh;
   padding: 20 px;
+  font-family: var(--primary-font), sans-serif;
 }
 footer {
   background-color: blueviolet;
@@ -11,3 +20,5 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
+/* hero */
