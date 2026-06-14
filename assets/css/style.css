@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon&family=Special+Elite&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon&family=Special+Elite&display=swap");
 
-Header{
-   background-color: blue;
+.main-content {
+  background-color: aqua;
+  min-height: 100vh;
+  padding: 20 px;
 }
-main{
-    background-color :red;
-}
-footer{
-    background-color: green;
+footer {
+  background-color: blueviolet;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
