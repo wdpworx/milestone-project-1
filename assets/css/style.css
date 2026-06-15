@@ -7,19 +7,21 @@
   --secdondary-color: darkgrey;
   --accent-color: orange;
 }
-h1 h2 h3 {
-  font-family: var(--secondary-font);
+nav {
+  font-family: var(--secondary-font), sans-serif;
+}
+nav i {
   color: var(--accent-color);
 }
 
 .main-content {
-  background-color: aqua;
+  background-color: var(--primary-color);
   min-height: 100vh;
   padding: 20 px;
   font-family: var(--primary-font), sans-serif;
 }
 footer {
-  background-color: blueviolet;
+  background-color: var(--secdondary-color);
   width: 100%;
   position: fixed;
   bottom: 0;
