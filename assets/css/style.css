@@ -1,30 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon&family=Special+Elite&display=swap");
 
+/* variables */
 :root {
   --primary-font: losevka-charon;
   --secondary-font: special-elite;
   --primary-color: lightgrey;
-  --secdondary-color: darkgrey;
-  --accent-color: orange;
-}
-nav {
-  font-family: var(--secondary-font), sans-serif;
-}
-nav i {
-  color: var(--accent-color);
+  --secdondary-color: rgb(40, 40, 46);
+  --accent-color: rgb(250, 163, 2);
 }
 
+/* main content */
 .main-content {
   background-color: var(--primary-color);
   min-height: 100vh;
   padding: 20 px;
   font-family: var(--primary-font), sans-serif;
 }
-footer {
-  background-color: var(--secdondary-color);
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+
+/* navbar */
+
+nav {
+  font-family: var(--secondary-font), sans-serif;
+}
+nav i {
+  color: var(--accent-color);
 }
 
 /* Hero section */
@@ -39,4 +38,12 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 5px;
+}
+
+/* footer*/
+footer {
+  background-color: var(--secdondary-color);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
