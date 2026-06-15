@@ -27,4 +27,16 @@ footer {
   bottom: 0;
 }
 
-/* hero */
+/* Hero section */
+#hero-section {
+  height: 500px;
+  width: 100%;
+  background: url("../images/perch-hero-image.png") no-repeat center
+    center/cover;
+}
+#hero-section h1 {
+  color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
