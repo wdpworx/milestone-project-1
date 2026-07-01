@@ -2,20 +2,11 @@
 
 /* variables */
 :root {
-  --primary-font: losevka-charon;
-  --secondary-font: special-elite;
+  --primary-font: Iosevka-Charon;
+  --secondary-font: Special-Elite;
   --primary-color: rgb(196, 192, 192);
-  --secdondary-color: rgba(43, 48, 53, 1);
+  --secondary-color: rgba(43, 48, 53, 1);
   --accent-color: rgb(250, 163, 2);
-}
-
-/* main content */
-.main-content {
-  background-color: var(--primary-color);
-  min-height: 100vh;
-  padding: 20 px;
-  font-family: var(--primary-font), sans-serif;
-  color: var(--secdondary-color);
 }
 
 /* navbar */
@@ -45,9 +36,30 @@ nav i {
   justify-content: center;
 }
 
+/* main content */
+.main-content {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  padding: 20 px;
+  padding-bottom: 60px; /* Adjust this value based on the height of your footer */
+  font-family: var(--primary-font), sans-serif;
+  color: var(--primary-color);
+}
+.main-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  font-family: var(--secondary-font), sans-serif;
+  color: var(--accent-color);
+}
+
 /* footer*/
 footer {
-  background-color: var(--secdondary-color);
+  background-color: var(--secondary-color);
   width: 100%;
   position: fixed;
   bottom: 0;
