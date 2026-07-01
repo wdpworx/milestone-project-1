@@ -5,7 +5,7 @@
   --primary-font: losevka-charon;
   --secondary-font: special-elite;
   --primary-color: rgb(140, 140, 140);
-  --secdondary-color: rgb(40, 40, 46);
+  --secdondary-color: rgba(43, 48, 53, 1);
   --accent-color: rgb(250, 163, 2);
 }
 
@@ -16,9 +16,6 @@
   padding: 20 px;
   font-family: var(--primary-font), sans-serif;
   color: var(--secdondary-color);
-}
-/*.button-color {
-  text-decoration-color: var(--secondary-color);
 }
 
 /* navbar */
@@ -54,4 +51,17 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+#social-networks {
+  text-align: center;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+#social-networks a {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--accent-color);
 }
